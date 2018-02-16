@@ -1,4 +1,4 @@
-namespace AopDynamicProxy.ConsoleApp
+namespace AopDynamicProxy
 {
     public interface ICalculator
     {

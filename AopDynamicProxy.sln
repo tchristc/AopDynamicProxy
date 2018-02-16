@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AopDynamicProxy.ConsoleApp", "AopDynamicProxy.ConsoleApp\AopDynamicProxy.ConsoleApp.csproj", "{666AB552-A7DC-4F0D-BAC0-151D26ED85B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopDynamicProxy.ConsoleAppNinject", "AopDynamicProxy.ConsoleAppNinject\AopDynamicProxy.ConsoleAppNinject.csproj", "{B06D48B3-CDE1-408B-8A37-1FC650C63BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopDynamicProxy", "AopDynamicProxy\AopDynamicProxy.csproj", "{9FD42AAE-3B4C-4D9E-996C-C5AA82440A36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{666AB552-A7DC-4F0D-BAC0-151D26ED85B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{666AB552-A7DC-4F0D-BAC0-151D26ED85B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{666AB552-A7DC-4F0D-BAC0-151D26ED85B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06D48B3-CDE1-408B-8A37-1FC650C63BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06D48B3-CDE1-408B-8A37-1FC650C63BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06D48B3-CDE1-408B-8A37-1FC650C63BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06D48B3-CDE1-408B-8A37-1FC650C63BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD42AAE-3B4C-4D9E-996C-C5AA82440A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD42AAE-3B4C-4D9E-996C-C5AA82440A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD42AAE-3B4C-4D9E-996C-C5AA82440A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD42AAE-3B4C-4D9E-996C-C5AA82440A36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
